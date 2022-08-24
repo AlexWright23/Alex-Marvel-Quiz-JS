@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Quiz</title>
+  <link rel="stylesheet" href="./assets/style.css">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="page center">Marvel Quiz</div>
+    <button class="start-button">Start</button>
+  </header>
+
+  <section>
+    <header id="scoreBox" class="hide">Score</header>
+    <header id="timeScore" class="timer"></header>
+  </section>
+
+  <main class="center section">
+    <h2 id="welcome" class="center">Welcome to the Marvel Quiz!</h2>
+    <h3 id="marVel" class="center">A quiz to test your knowledge about the Marvel Cinematic Universe!</h3>
+    <section class="questionContainer hide">
+      <h2 id="questions" class="center"></h2>
+      <article id="answers"></article>
+    </section>
+  </main>
+
+  <main id="questionText" class="hide center">
+    <h2 class="center textCenter">Congrats! You have finished the quiz!</h2>
+    <h3>Your Score</h3>
+
+  <form>
+    <label class="center" for="userText">Initials</label>
+    <br>
+    <input class="center" type="text" id="user" name="fname">
+    <br>
+    <button id="save-button" class="submit">Save Score</button>
+    </form>
+  </main>
+  
+  <script src="./assets/script.js"></script>
+</body>
+</html>
