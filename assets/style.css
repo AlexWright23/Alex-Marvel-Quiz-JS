@@ -69,3 +69,8 @@ button {
 .header #scorebox {
 font-size: larger;
 }
+
+#timeScore {
+  font-size: larger;
+  background-color: aliceblue;
+}
