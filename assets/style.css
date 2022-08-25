@@ -1,0 +1,71 @@
+#body {
+background-image: url(./images/erik-mclean-27kCu7bXGEI-unsplash.jpg);
+}
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(255, 0, 0);
+  height: 40px;
+  width: 70px;
+  margin: 20px;
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+.hide {
+  display: none;
+}
+
+#endText {
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+
+.questionContainer {
+  flex-direction: column;
+}
+
+.section {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+button {
+  margin: 60px;
+}
+
+.button2 {
+  height: 40px;
+  width: 100px;
+}
+
+.start-button {
+  background-color: rgb(255, 0, 0);
+  height: 40px;
+  width: 70px;
+  margin: 20px;
+}
+
+.header #scorebox {
+font-size: larger;
+}
